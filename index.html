@@ -7,35 +7,34 @@
         <title>Ali Whiteford</title>
         <meta name="description" content="Ali Whiteford is learning to build accessible, inclusive digital experiences for the web.">
         <!-- typefaces go here-->
-        <!-- icon/fontawesome go here-->
+        <script src="https://kit.fontawesome.com/d35d0fc2f1.js" crossorigin="anonymous"></script>
     </head>
 
     <main>
         <nav>
             <!-- sig image goes here-->
-            <a href="#">Home</a>
-            <a href="#">Projects</a>
-            <a href="mailto:aliwhiteford@bigpond.com" target="_blank" class="highlight-link">Contact</a>
+            
             <!-- dark/light interaction button goes here-->
         </nav>
         
         <header class="intro">
             <h1 class="intro-hello">Hello!</h1>
             <h2 class="intro-blurb">Thanks for stopping by, I'm <span class="name">Ali Whiteford</span>. A coffee loving, dog patting student currently learning to build accessible digital experiences for the web.</h2>
-            <ul class="items-center" aria-label="Social media">
-                    <li class="mr-5 text-xs">
-                        <a class="block hover:text-slate-200" href="https://github.com/aliotako"><span class="sr-only">GitHub</span>
-                        </a>
+            <ul class="internal-nav">
+                <nav class="nav hidden" aria-label="In-page jump links">
+                    <li>
+                        <a href="#">Background</a>
                     </li>
-                    <li class="mr-5 text-xs">
-                        <a class="block hover:text-slate-200" href="https://www.instagram.com/ali_whiteford/"><span class="sr-only">Instagram</span>
-                        </a>
+                    <li>
+                        <a href="#">Projects</a>
                     </li>
-                    <li class="mr-5 text-xs">
-                        <a class="block hover:text-slate-200" href="https://www.linkedin.com/in/ali-whiteford-36b990242/"><span class="sr-only">LinkedIn</span>
-                        </a>
+                    <li>
+                        <a href="mailto:aliwhiteford@bigpond.com" target="_blank" class="highlight-link">Contact</a>
                     </li>
+                </nav>
             </ul>
+
+           
             
          </header>
 
@@ -67,9 +66,24 @@
         </body> 
     </main>
     <footer>
-      <div class="acknowledgement"><p>I celebrate the stories, culture and traditions of Aboriginal and Torres Strait Islander Elders of all communities who also work and live on this land.</p>
-      </div>    
+        <div class="acknowledgement"><p>I celebrate the stories, culture and traditions of Aboriginal and Torres Strait Islander Elders of all communities who also work and live on this land.</p>
+        </div>
+        <div class="social-media" aria-label="Social media">
+            <a href="https://github.com/aliotako">
+                <i class="fa-brands fa-github"></i>
+                <span class="sr-only">GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/ali-whiteford-36b990242/">
+                <i class="fa-brands fa-linkedin"></i>
+                <span class="sr-only">LinkedIn</span>
+            </a>
+            <a href="https://www.instagram.com/ali_whiteford/">
+                <i class="fa-brands fa-instagram"></i>
+                <span class="sr-only">Instagram</span>
+            </a>
+            
+        </div>   
       <!-- designed through figma goes here-->
-      <!-- repeat github and linkedin goes here-->
+      
     </footer>
 </html>

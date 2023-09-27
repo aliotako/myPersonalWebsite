@@ -8,17 +8,9 @@ html {
 }
 
 nav {
-    height:fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     border: 1px solid yellow;
 }
-nav a {
-    margin: 0 15px;
-    padding: 8px 5px;
-    position: relative;
-}
+
 header {
     border-width: 5px;
     border-style: solid;
@@ -56,6 +48,9 @@ p {
 }
 
 /*socials styling */
+ul {
+    list-style: none;
+}
 .items-center {
     align-items: center;
 }
@@ -89,4 +84,14 @@ footer {
     width: 50%;
     text-align: center;
     font-size: smaller ;
+}
+.social-media {
+    margin: auto;
+}
+.social-media a {
+    font-size: 1.6em;
+    text-decoration: none;
+    width: auto;
+    padding: 10px;
+    color: #1c4f62;
 }
