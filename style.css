@@ -1,64 +1,66 @@
 html {
     line-height: 1.5;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Tahoma', Geneva, Segoe UI, Verdana, sans-serif;
     font-variation-settings: normal;
 }
 * {
     box-sizing: border-box;
 }
 
+/*header + intro styling */
+header {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+    padding: 120px 100px;
+    border: 1px solid orchid;
+}
+h1 {
+    font-family: "john-doe", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+    line-height: 2.5rem;
+    color: #1C4F62;    
+}
+
+.intro-blurb .name {
+    font-weight: 600;
+    color: #1C4F62;
+}
+.intro-blurb {
+    font-weight: 250;
+    font-size: 2rem;
+    max-width: 620px;
+}
+
 nav {
     border: 1px solid yellow;
 }
-
-header {
-    border-width: 5px;
-    border-style: solid;
-    border-color: orchid;
-    height: 350px;
+/*ul internal nav styling to go here. Want aligned with blurb*/
+ul {
+    list-style: none;
 }
-/*h1 styling */
-h1 {
-    display: block;
-    font-size: 3rem;
-    font-weight: 700;
-    line-height: 2.5rem;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-}
-h2 {
-    display: block;
-    margin-block-start: 0.85em;
-    margin-block-end: 0.85em;
-}
-.intro-blurb .name {
-    font-weight: 600;
-}
-.intro-blurb {
-    font-weight: 300;
-    font-size: 2rem;
-    max-width: 600px;
-}
-
 p {
     display: block;
     line-height: 1.5;
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
+.section-title {
+    font-family: "john-doe", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    font-style: normal;
+    color: #1c4f62;
+}
 
-/*socials styling */
-ul {
-    list-style: none;
-}
-.items-center {
-    align-items: center;
-}
+
+
 .background {
-    border-width: 5px;
-    border-style: solid;
-    border-color: rgb(39, 202, 121);
-    height: 300px;
+    max-width: 46vw;
+    padding-left: 100px;
+    border: 1px solid green;
 }
 .projects {
     border-width: 5px;
@@ -85,6 +87,7 @@ footer {
     text-align: center;
     font-size: smaller ;
 }
+/*socials styling */
 .social-media {
     margin: auto;
 }
