@@ -38,16 +38,13 @@ p {
     margin-block-end: 1em;
     color: #94A3B8 ;
 }
-.mt-4 {
+.mtp {
     margin-top: 1rem;
 }
-.max-w-xs {
+.max-w {
     max-width: 20rem;
 }
 /*socials styling */
 .items-center {
     align-items: center;
-}
-.flex {
-    display: flex;
 }
