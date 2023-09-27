@@ -7,12 +7,21 @@ html {
     box-sizing: border-box;
 }
 
+
+.left {
+    width: 40%;
+}
+.right {
+    float: right;
+    margin-top: -2vh;
+    width: 60%;
+}
 /*header + intro styling */
 header {
     flex-direction: column;
     justify-content: space-around;
-    height: 80vh;
-    padding: 120px 100px;
+    height: 65vh;
+    padding: 94px 100px;
     border: 1px solid orchid;
 }
 h1 {
@@ -39,7 +48,13 @@ nav {
 }
 /*ul internal nav styling to go here. Want aligned with blurb*/
 ul {
+    padding: 0;
     list-style: none;
+    color: #000;
+}
+a {
+    text-decoration: none;
+    color: #000;
 }
 p {
     display: block;
@@ -74,6 +89,8 @@ img {
     max-width: 600px;
 }
 footer {
+    float: left;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
