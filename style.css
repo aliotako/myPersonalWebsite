@@ -1,10 +1,55 @@
 html {
     line-height: 1.5;
-    font-family:'Tahoma', Geneva, Segoe UI, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-variation-settings: normal;
 }
 * {
     box-sizing: border-box;
+}
+
+html[data-theme='light'] {
+    --text-color: #000;
+    --link-color: #E8A497;
+    --background-color: F5F5F5;
+}
+
+/*dark+light theme*/
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+.checkbox:checked + .label .ball {
+    transform: translateX(24px);
+}
+
+.label {
+    background-color: #111;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    width: 50px;
+    height: 26px;
+    position: relative;
+    transform: scale(1.5);
+}
+.label .ball {
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 22px;
+    width: 22px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+}
+.fa-moon {
+    color: #F5F3CE;
+}
+.fa-sun {
+    color: #FF855B;
 }
 
 /*all typeface and text styling */
@@ -33,18 +78,6 @@ a {
     text-decoration: none;
     color: #000;
 }
-/*dark+light mode styling */
-[date-theme="light"] {
-    background-image: url(.images/JillHeyerUnspalsh.jpg) no-repeat center center fixed;
-    background-size: cover;
-    color:#F5F5F5;
-}
-[data-theme="dark"] {
-    background-image: url(.images/KellySikkemaUnsplash.jpg) no-repeat center center fixed;
-    background-size: cover;
-    color: #001400;
-}
-
 
 /*column styling */
 .left {
