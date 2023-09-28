@@ -7,23 +7,7 @@ html {
     box-sizing: border-box;
 }
 
-
-.left {
-    width: 40%;
-}
-.right {
-    float: right;
-    margin-top: -2vh;
-    width: 60%;
-}
-/*header + intro styling */
-header {
-    flex-direction: column;
-    justify-content: space-around;
-    height: 65vh;
-    padding: 94px 100px;
-    border: 1px solid orchid;
-}
+/*all typeface and text styling */
 h1 {
     font-family: "john-doe", sans-serif;
     font-weight: 700;
@@ -32,7 +16,54 @@ h1 {
     line-height: 2.5rem;
     color: #1C4F62;    
 }
+.section-title {
+    font-family: "john-doe", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    font-style: normal;
+    color: #1c4f62;
+}
+p {
+    display: block;
+    line-height: 1.5;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+/*dark+light mode styling */
+[date-theme="light"] {
+    background-image: url(.images/JillHeyerUnspalsh.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color:#F5F5F5;
+}
+[data-theme="dark"] {
+    background-image: url(.images/KellySikkemaUnsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #001400;
+}
 
+
+/*column styling */
+.left {
+    width: 40%;
+}
+.right {
+    float: right;
+    margin-top: -2vh;
+    width: 60%;
+}
+
+/*header + intro styling */
+header {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 65vh;
+    padding: 94px 100px;
+    border: 1px solid orchid;
+}
 .intro-blurb .name {
     font-weight: 600;
     color: #1C4F62;
@@ -43,33 +74,17 @@ h1 {
     max-width: 620px;
 }
 
+
 nav {
     border: 1px solid yellow;
 }
-/*ul internal nav styling to go here. Want aligned with blurb*/
+
+
 ul {
     padding: 0;
     list-style: none;
     color: #000;
 }
-a {
-    text-decoration: none;
-    color: #000;
-}
-p {
-    display: block;
-    line-height: 1.5;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-}
-.section-title {
-    font-family: "john-doe", sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
-    font-style: normal;
-    color: #1c4f62;
-}
-
 
 
 .background {
@@ -88,6 +103,8 @@ img {
     max-height: 600px;
     max-width: 600px;
 }
+
+/*footer styling */
 footer {
     float: left;
     width: 100%;
