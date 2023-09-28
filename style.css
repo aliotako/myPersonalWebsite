@@ -103,6 +103,10 @@ header {    /*header + intro styling */
 
 
 nav {       /*nav styling: transform on click */
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 2em;
     border: 1px solid yellow;
 }
 ul {
