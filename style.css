@@ -1,5 +1,6 @@
 html {
-    line-height: 1.5;
+    background: url(./images/JillHeyerUnsplashcropped.png) no-repeat center center fixed;
+    background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-variation-settings: normal;
 }
@@ -7,7 +8,7 @@ html {
     box-sizing: border-box;
 }
 
-nav {       /*nav styling: transform on click */
+nav {       /*nav styling: transform on click still not working */
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -19,11 +20,10 @@ nav {       /*nav styling: transform on click */
     height: 80px;
     padding-top: 10px;
 }
-.checkbox {     /*toggle styling */
+.checkbox {     
     opacity: 0;
     position: absolute;
 }
-
 .label {
     background-color: #61A8AE;
     align-self: center;
@@ -50,14 +50,12 @@ nav {       /*nav styling: transform on click */
 .checkbox:checked + .label .ball {
     transform: translateX(24px);
 }
-
 .fa-moon {
     color: #F5F3CE;
 }
 .fa-sun {
     color: #EDBE08;
 }
-
 
 h1 {    /*all typeface and text styling */
     font-family: "Special Elite", sans-serif;
@@ -85,10 +83,9 @@ a {
     color: #000;
 }
 
-
-header {    /*header + intro styling */
-    height: 98vh;
-    padding: 94px 304px;
+header {    
+    height: 92vh;
+    padding: 100px 438px;
     border: 1px solid orchid;
 }
 .intro-blurb .name {
@@ -130,23 +127,25 @@ ul.internal-nav {
     font-size: large;
 }
 
-
 .background {
     margin-bottom: 2em;
     max-width: 25vw;
-    border: 1px solid green;
 }
+
 .projects {
-    border: 5px solid salmon;
-    height: 1500px;
+    margin-top: 7em;
 }
+
 .myflex-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
 }
 .flex-item-left, .flex-item-right {
     margin: 47px;
+}
+.flex-item-left {
+    flex: 40%;
 }
 .flex-item-right {
     flex: 60%;
@@ -155,17 +154,14 @@ ul.internal-nav {
    color: dimgrey; 
    text-decoration: none;
 }
-
-
-
-
-img {
-    padding-top: 20px;
-    overflow: clip;
-} 
+.tools {
+    font-size: small;
+}
 #FR {
     float: right;
     margin: 0 0 0 15px;
+    padding-top: 20px;
+    overflow: clip;
 }
 
 
@@ -176,8 +172,7 @@ footer {    /*footer styling */
     flex-direction: column;
     justify-content: space-between;
     margin-top: 2rem;
-    padding: 2em;
-    border: 1px solid salmon
+    padding: 3em;
 }
 .acknowledgement {
     margin: auto;
