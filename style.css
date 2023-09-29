@@ -78,12 +78,13 @@ p {
     display: block;
     line-height: 1.5;
     margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-end: 0.5em;
 }
 a {
     text-decoration: none;
     color: #000;
 }
+
 
 header {    /*header + intro styling */
     height: 98vh;
@@ -136,13 +137,36 @@ ul.internal-nav {
     border: 1px solid green;
 }
 .projects {
-    border-width: 5px;
-    border-style: solid;
-    border-color: rgb(22, 132, 146);
+    border: 5px solid salmon;
     height: 1500px;
+}
+.myflex-container {
+    display: flex;
+    flex-direction: row;
+
+}
+.flex-item-left, .flex-item-right {
+    margin: 47px;
+}
+.flex-item-right {
+    flex: 60%;
+}
+.student {
+   color: dimgrey; 
+   text-decoration: none;
 }
 
 
+
+
+img {
+    padding-top: 20px;
+    overflow: clip;
+} 
+#FR {
+    float: right;
+    margin: 0 0 0 15px;
+}
 
 
 footer {    /*footer styling */
