@@ -112,12 +112,23 @@ header {    /*header + intro styling */
 ul {
     padding: 0;
     list-style: none;
-    color: #000;
+    }
+ul a:hover:before {
+    color: rgba(0, 0, 0, 0.85);
+}
+ul a:hover {
+    font-family: "Special Elite", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #61A8AE;
 }
 ul.internal-nav {
     margin-top: 3em;
     font-size: large;
 }
+
 
 .background {
     margin-bottom: 2em;
