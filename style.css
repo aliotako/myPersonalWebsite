@@ -13,7 +13,6 @@ nav {       /*nav styling: transform on click still not working */
     display: flex;
     justify-content: space-evenly;
     padding: 0.5em;
-    border: 1px solid yellow;
 }
 .navbar-brand {
     width: 80px;
@@ -86,7 +85,6 @@ a {
 header {    
     height: 92vh;
     padding: 100px 438px;
-    border: 1px solid orchid;
 }
 .intro-blurb .name {
     font-weight: 600;
@@ -131,23 +129,23 @@ ul.internal-nav {
     margin-bottom: 2em;
     max-width: 25vw;
 }
-
 .projects {
     margin-top: 7em;
 }
 
 .myflex-container {
     display: flex;
-    flex-direction: column;
-
 }
 .flex-item-left, .flex-item-right {
-    margin: 47px;
+    margin-bottom: 2em;
 }
 .flex-item-left {
-    flex: 40%;
+    flex-direction: row;
+    margin-top: 22px;
+    margin-right: 153px;
 }
 .flex-item-right {
+    padding-top: 1em;
     flex: 60%;
 }
 .student {
