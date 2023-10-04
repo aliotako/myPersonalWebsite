@@ -5,5 +5,4 @@ Requirements: interactive components for viewer /  use of HTML, CSS and JavaScri
 
 Publish to GitHub Pages
 
-Hello! So future me has a couple of things to tweak. I want that nav area to have my lettermark CF with my toggle justified right.
-Speaking of the toggle. Even though my dark mode kept wigging out and wouldn't play, I'm keeping the toggle there to remind me. Also because it works and it looks pretty.
+http://localhost:5500/
